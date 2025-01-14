@@ -1,6 +1,9 @@
-Gelişmiş Mutfak Takip Uygulaması
-Gelişmiş Mutfak Takip, mutfağınızdaki ürünleri etkin bir şekilde yönetmenizi sağlayan bir masaüstü uygulamasıdır. Uygulama, ürünlerin son kullanma tarihlerini takip etmenize, stok durumunu görüntülemenize ve alışveriş listesi oluşturmanıza olanak tanır.
-Özellikler
+GIDA TAKİPÇİSİ
+
+Gıda takipçisi, mutfağınızdaki ürünleri etkin bir şekilde yönetmenizi sağlayan bir masaüstü uygulamasıdır. Uygulama, ürünlerin son kullanma tarihlerini takip etmenize, stok durumunu görüntülemenize ve alışveriş listesi oluşturmanıza olanak tanır.
+
+
+ÖZELLİKLER
 
 Ürün Yönetimi
 
@@ -41,16 +44,23 @@ Sekmeli navigasyon sistemi
 
 
 
-Gereksinimler
+GEREKSİNİMLER
 
 Python 3.x
+
 tkinter
+
 json
+
 datetime
+
 threading
+
 os
 
-## Kurulum
+
+
+KURULUM
 
 1. Python 3.8 veya daha üstü bir sürümü bilgisayarınıza yükleyin.
 2. Gerekli kütüphaneleri kurun:
@@ -75,7 +85,9 @@ os
    ```
 
 
-Kullanım
+KULLANIM
+
+
 Ürün Ekleme
 
 "Ürün Ekle" sekmesine gidin

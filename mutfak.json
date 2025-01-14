@@ -1,0 +1,126 @@
+{
+    "kategoriler": [
+        {
+            "id": 1,
+            "kategori_adi": "Meyve/Sebze"
+        },
+        {
+            "id": 2,
+            "kategori_adi": "Et Ürünleri"
+        },
+        {
+            "id": 3,
+            "kategori_adi": "Süt Ürünleri"
+        },
+        {
+            "id": 4,
+            "kategori_adi": "Kuru Gıda"
+        },
+        {
+            "id": 5,
+            "kategori_adi": "Diğer"
+        }
+    ],
+    "urunler": [
+        {
+            "id": 1,
+            "urun_adi": "Elma",
+            "miktar": 2,
+            "birim": "Kg",
+            "kategori_id": 1,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-19",
+            "notlar": ""
+        },
+        {
+            "id": 2,
+            "urun_adi": "Kıyma",
+            "miktar": 3,
+            "birim": "Kg",
+            "kategori_id": 2,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-21",
+            "notlar": "Köfte yap."
+        },
+        {
+            "id": 3,
+            "urun_adi": "Simit",
+            "miktar": 2,
+            "birim": "Adet",
+            "kategori_id": 5,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-15",
+            "notlar": "Yanına peynir al."
+        },
+        {
+            "id": 4,
+            "urun_adi": "Süt",
+            "miktar": 2,
+            "birim": "Litre",
+            "kategori_id": 3,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-21",
+            "notlar": "Yulaf sütü"
+        },
+        {
+            "id": 5,
+            "urun_adi": "Fındık",
+            "miktar": 250,
+            "birim": "Gram",
+            "kategori_id": 4,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-24",
+            "notlar": ""
+        },
+        {
+            "id": 6,
+            "urun_adi": "Vişne",
+            "miktar": 1,
+            "birim": "Kg",
+            "kategori_id": 1,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-17",
+            "notlar": "Yarısıyla vişne reçeli yap"
+        },
+        {
+            "id": 7,
+            "urun_adi": "Sucuk",
+            "miktar": 1,
+            "birim": "Adet",
+            "kategori_id": 2,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-21",
+            "notlar": ""
+        },
+        {
+            "id": 8,
+            "urun_adi": "Yumurta",
+            "miktar": 30,
+            "birim": "Adet",
+            "kategori_id": 5,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-03-15",
+            "notlar": "Çiftlik yumurtası"
+        },
+        {
+            "id": 10,
+            "urun_adi": "Pirinç",
+            "miktar": 1,
+            "birim": "Kg",
+            "kategori_id": 4,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-02-13",
+            "notlar": "Sütlaç ve pilav için."
+        },
+        {
+            "id": 10,
+            "urun_adi": "kıyma",
+            "miktar": 2,
+            "birim": "Kg",
+            "kategori_id": 2,
+            "eklenme_tarihi": "2025-01-14",
+            "son_kullanma": "2025-01-18",
+            "notlar": ""
+        }
+    ]
+}

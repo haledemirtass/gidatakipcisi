@@ -42,7 +42,7 @@ Gerekli Python kütüphanelerini yükleyin:
 
 pip install -r requirements.txt
 
-pip install tke
+pip install tk
 
 Uygulamayı başlatmak için aşağıdaki komutu çalıştırın:
 

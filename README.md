@@ -1,68 +1,107 @@
-Gıda Takip Uygulaması Projesi
+Gelişmiş Mutfak Takip Uygulaması
+Gelişmiş Mutfak Takip, mutfağınızdaki ürünleri etkin bir şekilde yönetmenizi sağlayan bir masaüstü uygulamasıdır. Uygulama, ürünlerin son kullanma tarihlerini takip etmenize, stok durumunu görüntülemenize ve alışveriş listesi oluşturmanıza olanak tanır.
+Özellikler
 
-Proje Hakkında
+Ürün Yönetimi
 
-Gıda Takip Uygulaması, kullanıcıların mutfak stoklarını daha verimli bir şekilde yönetmelerini ve gıda israfını azaltmalarını sağlamak için geliştirilmiş bir projedir. Kullanıcılar, aldıkları ürünleri sisteme ekleyerek stoklarını takip edebilir, ürünlerin son kullanma tarihlerini kontrol edebilir ve ihtiyaç duyulan alışverişleri planlayabilir.
+Yeni ürün ekleme
+Ürün kategorilendirme
+Miktar takibi
+Son kullanma tarihi kontrolü
+Otomatik stok güncellemesi
 
-Ana Özellikler
 
-Stok Takip Sistemi:
+Kategori Sistemi
 
-Kullanıcılar, mutfaklarında bulunan ürünlerin adını, miktarını ve son kullanma tarihini sisteme ekleyebilir.
+Meyve/Sebze
+Et Ürünleri
+Süt Ürünleri
+Kuru Gıda
+Diğer
 
-Stok listesi kullanıcı dostu bir arayüz ile görüntülenebilir.
 
-Son Kullanma Tarihi Takibi:
+Raporlama
 
-Ürünlerin son kullanma tarihleri sisteme kaydedilir ve tarihi geçen ürünler otomatik olarak listeden kaldırılır.
+Son kullanma tarihi yaklaşan ürünler raporu
+Kategori bazlı stok raporu
 
-Alışveriş Listesi Oluşturma:
 
-Stokta olmayan ya da az miktarda kalan ürünler için alışveriş listesi oluşturulabilir.
+Alışveriş Listesi
 
-Liste, market alışverişlerinde kolaylık sağlar.
+Alınacak ürünleri listeleme
+Miktar ve birim belirtme
+Liste temizleme
 
-Kayıt ve Düzenleme Özelliği:
 
-Kullanıcılar ürün bilgilerini güncelleyebilir veya mevcut ürünleri silebilir.
+Görsel Özellikler
 
-Kullanılan Teknolojiler
+Açık/Koyu tema desteği
+Kullanıcı dostu arayüz
+Sekmeli navigasyon sistemi
 
-Python: Uygulamanın temel yazılım dili.
 
-JSON: Verileri saklamak için kullanılan hafif ve esnek bir format.
 
-Tkinter: Basit ve kullanıcı dostu bir arayüz oluşturmak için kullanılan Python kütüphanesi.
+Gereksinimler
+
+Python 3.x
+tkinter
+json
+datetime
+threading
+os
 
 Kurulum
 
-Bu projeyi bilgisayarınıza indirin veya klonlayın:
+Repository'yi klonlayın:
 
-Gerekli Python kütüphanelerini yükleyin:
+bashCopygit clone [repository-url]
 
-pip install -r requirements.txt
+Proje dizinine gidin:
 
-pip install tk
+bashCopycd gelismis-mutfak-takip
 
-Uygulamayı başlatmak için aşağıdaki komutu çalıştırın:
+Uygulamayı çalıştırın:
 
-python mutfaktakipcisi.py
-
+bashCopypython main.py
 Kullanım
+Ürün Ekleme
 
-Stok Yönetimi:
+"Ürün Ekle" sekmesine gidin
+Kategori seçin
+Ürün adı, miktar ve birim bilgilerini girin
+Son kullanma süresini gün cinsinden belirtin
+İsteğe bağlı not ekleyin
+"Ürün Ekle" butonuna tıklayın
 
-Uygulama açıldığında, "Stok Ekle" seçeneği ile yeni ürün bilgilerini kaydedin.
+Ürün Listesi
 
-Stokta bulunan ürünlerin listesini "Stok Listesi" sekmesinden görüntüleyin.
+Tüm ürünleri görüntüleme
+Kategoriye göre filtreleme
+Ürün silme
+Miktar artırma/azaltma
 
-Son Kullanma Tarihi Takibi:
+Raporlar
 
-Sistemde kayıtlı ürünlerin son kullanma tarihleri düzenli olarak kontrol edilir.
+Son kullanma tarihi yaklaşan ürünleri görüntüleme
+Kategori bazlı stok durumu raporlama
 
-Tarihi geçen ürünler otomatik olarak listeden kaldırılır.
+Alışveriş Listesi
 
-Alışveriş Planlama:
+"Alışveriş Listesi" sekmesine gidin
+Alınacak ürün adı ve miktarını girin
+"Listeye Ekle" butonuyla ürünü ekleyin
+Gerektiğinde listeyi temizleyin
 
-Eksik ya da azalan ürünlerinizi "Alışveriş Listesi" sekmesinden planlayın.
+Özellikler
+Otomatik Silme
+
+Uygulama, son kullanma tarihi geçen ürünleri otomatik olarak sistemden kaldırır
+Kontrol günlük olarak yapılır
+
+Tema Değiştirme
+
+Sağ üst köşedeki tema değiştirme butonu ile açık/koyu tema arasında geçiş yapılabilir
+
+Veri Saklama
+Uygulama verileri mutfak.json dosyasında saklanır.
 

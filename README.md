@@ -50,19 +50,31 @@ datetime
 threading
 os
 
-Kurulum
+## Kurulum
 
-Repository'yi klonlayın:
+1. Python 3.8 veya daha üstü bir sürümü bilgisayarınıza yükleyin.
+2. Gerekli kütüphaneleri kurun:
 
-bashCopygit clone [repository-url]
+   ```bash
+   pip install tk
+   ```
 
-Proje dizinine gidin:
+3. Proje dosyasını klonlayın veya indirin:
 
-bashCopycd gelismis-mutfak-takip
+   GitHub linki: https://github.com/kullaniciadi/mutfak-takip
+   Komutlarla klonlamak için:
+   ```bash
+   git clone https://github.com/kullaniciadi/mutfak-takip.git
+   cd mutfak-takip
+   ```
 
-Uygulamayı çalıştırın:
+4. Uygulamayı başlatın:
 
-bashCopypython main.py
+   ```bash
+   python mutfak_takip.py
+   ```
+
+
 Kullanım
 Ürün Ekleme
 

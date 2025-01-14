@@ -61,7 +61,7 @@ os
 
 3. Proje dosyasını klonlayın veya indirin:
 
-   GitHub linki: https://github.com/kullaniciadi/mutfak-takip
+   GitHub linki: https://github.com/haledemirtass/mutfak-takip
    Komutlarla klonlamak için:
    ```bash
    git clone https://github.com/kullaniciadi/mutfak-takip.git

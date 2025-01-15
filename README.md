@@ -76,7 +76,7 @@ KURULUM
    Komutlarla klonlamak için:
    ```bash
    git clone https://github.com/haledemirtass/mutfak-takip.git
-   cd gida_takipcisi
+   cd mutfak-takip
    ```
 
 5. Uygulamayı başlatın:

@@ -79,11 +79,7 @@ KURULUM
    cd gida_takipcisi
    ```
 
-5. Uygulamayı başlatın:
 
-   ```bash
-   python gida_takipcisi.py
-   ```
 
 
 KULLANIM

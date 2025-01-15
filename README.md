@@ -74,7 +74,7 @@ KURULUM
    GitHub linki: https://github.com/haledemirtass/mutfak-takip
    Komutlarla klonlamak için:
    ```bash
-   git clone https://github.com/kullaniciadi/mutfak-takip.git
+   git clone https://github.com/haledemirtass/mutfak-takip.git
    cd mutfak-takip
    ```
 

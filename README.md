@@ -71,14 +71,15 @@ KURULUM
 
 3. Proje dosyasını klonlayın veya indirin:
 
-   GitHub linki: https://github.com/haledemirtass/mutfak-takip
+   GitHub linki: https://github.com/haledemirtass/gida_takipcisi
+   
    Komutlarla klonlamak için:
    ```bash
    git clone https://github.com/haledemirtass/gida_takipcisi.git
    cd gida_takipcisi
    ```
 
-4. Uygulamayı başlatın:
+5. Uygulamayı başlatın:
 
    ```bash
    python gida_takipcisi.py

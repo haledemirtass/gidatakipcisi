@@ -74,14 +74,14 @@ KURULUM
    GitHub linki: https://github.com/haledemirtass/mutfak-takip
    Komutlarla klonlamak için:
    ```bash
-   git clone https://github.com/haledemirtass/mutfak-takip.git
-   cd mutfak-takip
+   git clone https://github.com/haledemirtass/gida_takipcisi.git
+   cd gida_takipcisi
    ```
 
 4. Uygulamayı başlatın:
 
    ```bash
-   python mutfak_takip.py
+   python gida_takipcisi.py
    ```
 
 
